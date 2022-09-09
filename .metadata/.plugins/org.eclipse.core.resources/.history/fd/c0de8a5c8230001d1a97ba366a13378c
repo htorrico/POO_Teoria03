@@ -1,0 +1,13 @@
+
+public class Inicio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Alumno a1= new Alumno();
+		a1.setCodigo(5);
+		System.out.println(a1.getCodigo());
+		
+	}
+
+}

@@ -1,0 +1,60 @@
+
+public class Persona {
+
+	private String DNI;
+	private String Nombres;
+	private double Sueldo;
+	private double SueldoNeto;
+	
+	public Persona()
+	{
+		
+	}
+	
+	public Persona(String DNI, String Nombres, double Sueldo)
+	{
+		this.DNI=DNI;
+		this.Nombres=Nombres;
+		this.Sueldo=Sueldo;		
+	}
+	public double SueldoNeto()
+	{
+		return this.SueldoNeto;
+	}
+	public void CalcularSueldoNeto()
+	{
+		this.SueldoNeto=this.Sueldo-this.Sueldo*Sunat.ImpuestoSueldo;				
+	}
+	
+	
+	public String getDNI()
+	{
+		return this.DNI;
+	}
+	public void setDNI(String DNI)
+	{
+		this.DNI=DNI;
+	}
+	
+	public String getNombres()
+	{
+		return this.Nombres;
+	}
+	public void setNombres(String Nombres)
+	{
+		this.Nombres=Nombres;
+	}
+	
+	public double getSueldo()
+	{
+		return this.Sueldo;
+	}
+	public void setSueldo(double Sueldo)
+	{
+		this.Sueldo=Sueldo;
+	}
+	
+	
+	
+	
+}

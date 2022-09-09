@@ -1,0 +1,6 @@
+
+public  class Sunat {
+	
+	public static double Impuesto=0.08;
+	
+}

@@ -1,0 +1,25 @@
+
+public class Alumno {
+ 
+	
+	private int codigo;
+	
+	public Alumno()
+	{
+		
+	}
+	public Alumno(int codigo)
+	{
+		this.codigo=codigo;
+	}
+	
+	public void setCodigo(int codigo)
+	{
+		this.codigo=codigo;
+	}
+	public int getCodigo()
+	{
+		return this.codigo;
+	}
+
+}

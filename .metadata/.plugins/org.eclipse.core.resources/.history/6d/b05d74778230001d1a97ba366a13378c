@@ -1,0 +1,38 @@
+
+public class Alumno {
+ 
+	
+	private int Codigo;
+	private String Nombres;
+	private String Apellidos;
+	
+	public Alumno()
+	{
+		Codigo=0;
+		
+	}
+	public Alumno(int Codigo)
+	{
+		this.Codigo=Codigo;
+	}
+	
+	public Alumno(int Codigo, String Nombres, String Apellidos )
+	{
+		
+		
+	}
+	
+	
+	
+	
+	
+	public void setCodigo(int codigo)
+	{
+		this.codigo=codigo;
+	}
+	public int getCodigo()
+	{
+		return this.codigo;
+	}
+
+}
